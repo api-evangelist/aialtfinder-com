@@ -66,7 +66,7 @@
 
 AI Alt Finder is a community‑driven directory that lists live, working alternatives to popular AI tools across twelve categories. Each listing includes real‑time launch dates and Stripe‑verified revenue where available. Operated by Ellelion LLC in Wyoming, the platform allows users to submit tools, vote, and view detailed information. The site provides open API access via OpenAPI spec and llms.txt for integration.
 
-**Areas:** AI · Directory · Alternatives · Community · Tools
+**Areas:** Artificial Intelligence · Directory · Alternatives · Community · Tools
 
 ## AI Alt Finder on APIs.io
 
@@ -117,11 +117,17 @@ Everything profiled for AI Alt Finder is published on APIs.io rather than in thi
 
 Each property below is a page on APIs.io carrying the machine-readable artifact and what it says.
 
+#### MCP servers (1)
+
+Model Context Protocol servers that expose the API to agents.
+
+- [aialtfinder-com-mcp.yml](https://apis.io/servers/aialtfinder-com/aialtfinder-com-mcp-yml/)
+
 #### Agentic access (1)
 
 Which operations an agent can call, which act, and which need a human in the loop.
 
-- [Aialtfinder Com Agentic Access](https://apis.io/agentic-access/aialtfinder-com/aialtfinder-com-agentic-access/)
+- [AI Alt Finder Agentic Access](https://apis.io/agentic-access/aialtfinder-com/aialtfinder-com-agentic-access/)
 
 #### JSON Schema (3)
 
@@ -137,6 +143,13 @@ Linked-data contexts for the provider's vocabulary.
 
 - [Aialtfinder Com Context](https://apis.io/jsonld/aialtfinder-com/aialtfinder-com-context/)
 
+#### Overlays (2)
+
+OpenAPI overlays, including conversational phrasing for each operation.
+
+- [AI Alt Finder Agent Api Certification Overlay](https://apis.io/overlays/aialtfinder-com/aialtfinder-com-agent-api-certification-overlay/)
+- [AI Alt Finder Session Api Certification Overlay](https://apis.io/overlays/aialtfinder-com/aialtfinder-com-session-api-certification-overlay/)
+
 #### Governance rules (1)
 
 Spectral rulesets for the provider's contracts.
@@ -147,26 +160,26 @@ Spectral rulesets for the provider's contracts.
 
 Authentication, trust centre, and vulnerability disclosure.
 
-- [Aialtfinder Com Authentication](https://apis.io/security/aialtfinder-com/aialtfinder-com-authentication/)
-- [Aialtfinder Com Domain Security](https://apis.io/security/aialtfinder-com/aialtfinder-com-domain-security/)
+- [AI Alt Finder Authentication](https://apis.io/security/aialtfinder-com/aialtfinder-com-authentication/)
+- [AI Alt Finder Domain Security](https://apis.io/security/aialtfinder-com/aialtfinder-com-domain-security/)
 
 #### OAuth scopes (1)
 
 The permissions the API asks for.
 
-- [Aialtfinder Com Scopes](https://apis.io/scopes/aialtfinder-com/aialtfinder-com-scopes/)
+- [AI Alt Finder Scopes](https://apis.io/scopes/aialtfinder-com/aialtfinder-com-scopes/)
 
 #### Plans and pricing (1)
 
 Published plans, tiers and prices.
 
-- [Aialtfinder Com Plans Pricing](https://apis.io/plans/aialtfinder-com/aialtfinder-com-plans-pricing/)
+- [AI Alt Finder Plans Pricing](https://apis.io/plans/aialtfinder-com/aialtfinder-com-plans-pricing/)
 
 #### Rate limits (1)
 
 Published request limits.
 
-- [Aialtfinder Com Rate Limits](https://apis.io/rate-limits/aialtfinder-com/aialtfinder-com-rate-limits/)
+- [AI Alt Finder Rate Limits](https://apis.io/rate-limits/aialtfinder-com/aialtfinder-com-rate-limits/)
 
 ## Where to find this API
 
@@ -184,23 +197,23 @@ Links to the company's own pages. This repository publishes no copy of their spe
 
 ## API Evangelist rating
 
-**Kin Score 54.5** — strong · rubric 0.26.0 · scored 2026-11-01
+**Kin Score 48.6** — developing · rubric 0.28.1 · scored 2026-11-21
 
 | Facet | Score |
 |---|---|
-| Discoverability | 65.0 |
-| Contract quality | 51.8 |
-| Contract governance | 79.1 |
+| Discoverability | 81.7 |
+| Contract quality | 52.4 |
+| Contract governance | 22.0 |
 | Operational transparency | 0.0 |
 | Developer ergonomics | 42.1 |
-| Access clarity | 73.2 |
+| Access clarity | 76.6 |
 
-**Agent readiness 57.6** — agent-ready (gated down from agent-native)
+**Agent readiness 54.7** — agent-ready (gated down from agent-native)
 
 | Agent-readiness dimension | Result |
 |---|---|
 | Spec Presence | yes |
-| Agentic Access | unknown |
+| Agentic Access | derived (partial credit) |
 | Reversibility Documented | — |
 | MCP Server | documented (partial credit) |
 | Auth Clarity | served (partial credit) |
@@ -211,7 +224,7 @@ Links to the company's own pages. This repository publishes no copy of their spe
 | Event Surface Described | — |
 | Agent Skills | unknown |
 | Well Known Catalog | yes |
-| Consent Identity | — |
+| Consent Identity | deployed |
 | Agent Card | near-conformant (partial credit) |
 | Dry Run Mode | — |
 | Delegated Identity | documented (partial credit) |
@@ -221,8 +234,11 @@ Links to the company's own pages. This repository publishes no copy of their spe
 | Pagination Ratio | paginated |
 | Operation Distinctiveness | distinct |
 | MCP Tool Quality | na |
+| Onboarding Descriptor | — |
+| Dns Aid Index | na |
+| Markdown Negotiation | yes |
 
-**Regulatory alignment 31.8** — Horizontal (data, software, accessibility, platform)
+**Regulatory alignment 26.4** — Horizontal (data, software, accessibility, platform)
 
 The rubric is published at [github.com/api-evangelist/kin-score](https://github.com/api-evangelist/kin-score). The per-check breakdown behind these numbers — which checks were earned, partial or missed — along with score history and how this provider compares to its peers, is available at [apis.io/providers/aialtfinder-com/](https://apis.io/providers/aialtfinder-com/).
 
